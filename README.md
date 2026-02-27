@@ -1,0 +1,29 @@
+RHELサーバ構築に関する 構成図 / 手順書 / 通信要件一覧 / パッケージ一覧 を体系的にまとめた資料一式です。 
+フォルダ構成は以下の通りです。summaryフォルダの【overview】portfolio_summary.xlsxのみ確認お願いします。
+
+portfolio/                                         　                                # 本リポジトリ
+├── document/                         　　　　　　　　                                # 各種ドキュメント格納フォルダ
+│   ├── Architecture/                 　　　　　　　　                                # 各種構成図用フォルダ
+│   │   ├── 【RHEL】Network Architecture_v1.0.xlsx                                   # ネットワーク構成図
+│   │   ├── 【RHEL】Server Architecture_v1.0.xlsx                                    # サーバー構成図
+│   │   └── 【RHEL】System Architecture_v1.0.xlsx                                    # システム構成図
+│   │
+│   ├── Build Procedure Document/     　　　　　　　　                                 # 構築手順書用フォルダ
+│   │   ├── 【RHEL】Build Procedure Document_AP Server Build_v1.0.xlsx    　　　      # APサーバー構築手順書
+│   │   ├── 【RHEL】Build Procedure Document_DB Server Build_v1.0.xlsx    　　　      # DBサーバー構築手順書
+│   │   ├── 【RHEL】Build Procedure Document_DHCP Server Build_v1.0.xlsx    　　      # DHCPサーバー構築手順書
+│   │   ├── 【RHEL】Build Procedure Document_DNS Server Build_v1.0.xlsx   　　　      # DNSサーバー構築手順書
+│   │   ├── 【RHEL】Build Procedure Document_LB Server Build_v1.0.xlsx    　　　 　　　# LBサーバー構築手順書
+│   │   ├── 【RHEL】Build Procedure Document_NTP Server Build_v1.0.xlsx   　　　       # NTPサーバー構築手順書
+│   │   ├── 【RHEL】Build Procedure Document_OS Installation Initial Setup_v1.0.xlsx   # OSインストール直後の設定手順書
+│   │   ├── 【RHEL】Build Procedure Document_OS Installation Setup_v1.0.xlsx    　　　 # OSインストール後の設定手順書
+│   │   ├── 【RHEL】Build Procedure Document_syslog Server Build_v1.0.xlsx    　　　   # syslogサーバー構築手順書
+│   │   └── 【RHEL】Build Procedure Document_WEB Server Build_v1.0.xlsx               # WEBサーバー構築手順書
+│   │
+│   ├── Communication Requirements/                                                   # 通信要件一覧用フォルダ
+│   │   └── 【RHEL】Communication Requirements List_v1.0.xlsx                         # 通信要件一覧
+│   └── Packages/                           　                                        # パッケージ一覧用フォルダ
+│       └── 【RHEL】Installed Packages List_v1.0.xlsx                                 # インストール済みパッケージ一覧
+│
+└── summary/                          　　　　　　　　　　　　　　　　　　　　　　　　　　# 各資料の要約・概要（短時間で把握できる版）
+    └── 【overview】portfolio_summary.xlsx                                            # 全体の概要まとめ
